@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { httpService } from '../services/HttpService';
+import { httpService } from '../utils/HttpService';
 
 function DataFetcher() {
     const [data, setData] = useState(null);
